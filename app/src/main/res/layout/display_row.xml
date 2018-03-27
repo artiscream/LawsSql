@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="75dp" >
+
+    <TextView
+    android:id="@+id/_id"
+    android:layout_width="40dp"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:textAppearance="?android:textAppearanceLarge"
+    android:text="123" />
+
+    <TextView
+        android:id="@+id/_numroz"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@+id/_id"
+        android:text="123"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/_rozd"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/_numroz"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="123" />
+
+    <TextView
+        android:id="@+id/_numstat"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/_rozd"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="123" />
+
+    <TextView
+        android:id="@+id/_stat"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/_numstat"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="123" />
+
+
+</RelativeLayout>
